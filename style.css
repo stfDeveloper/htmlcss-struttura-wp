@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.rosa{
+    background-color: pink;
+    height: 60px;
+}
+
+.giallo{
+    background-color: gold;
+    margin: 10px 0;
+    height: 180px;
+}
+
+main{
+    background-color:navy
+}
+
+main .top{
+    height: 60px;
+}
+
+.bg{
+    background-color: lightgrey;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col{
+float: left;
+margin: 10px 0;
+height: 180px;
+}
+
+.colLx,
+.colRx{
+width: 20%;
+}
+
+.colCx{
+width: 60%;
+}
+.col div{
+    height: 180px;
+}
